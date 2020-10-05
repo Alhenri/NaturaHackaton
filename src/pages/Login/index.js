@@ -13,7 +13,7 @@ function Login(){
                     <Input type="text" value="Usuário" />
                     <Input type="text" value="Senha" />
                 </form>
-                <Button>Avançar</Button>
+                <Button to="/Conta">Avançar</Button>
             </section>
         </PageDefault>
     )
