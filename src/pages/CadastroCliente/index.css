@@ -1,0 +1,8 @@
+form#CadastroCliente{
+    height: 80%;
+    width: 80%;
+
+}
+form#CadastroCliente input{
+    margin-top: 22px;
+}

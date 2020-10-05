@@ -10,6 +10,7 @@ import Cadastro from './pages/Cadastro'
 import CadastroCliente from './pages/CadastroCliente'
 import CadastroLoja from './pages/CadastroLoja'
 import Login from './pages/Login'
+import Verificação from './pages/Verificação'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Route path='/CadastroCliente' component={ CadastroCliente } exact />
       <Route path='/CadastroLoja' component={ CadastroLoja } exact />
       <Route path='/Login' component={ Login } exact />
+      <Route path='/Verificação' component={ Verificação } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

@@ -4,6 +4,7 @@ import Styled from 'styled-components'
 const StyledInput = Styled.input`
     width: 200px;
     height: auto;
+    margin: 5px;
 
     text-align: center;
     color: #636363;
