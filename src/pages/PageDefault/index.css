@@ -1,0 +1,25 @@
+section#PageDefault{
+    margin-top: 60px;
+    background-color: #E5E5E5;
+    width: 120vh;
+    height: 80vh;
+    border-radius: 15px;
+    padding-top: 20px;
+    padding-bottom: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img {
+    margin-bottom: 25px;
+    width: 20%;
+    height: 20%;
+    left: 0px;
+}
+section#content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
