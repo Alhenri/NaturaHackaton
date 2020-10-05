@@ -12,8 +12,7 @@ section#PageDefault{
 }
 img {
     margin-bottom: 25px;
-    width: 20%;
-    height: 20%;
+    height: 100px;
     left: 0px;
 }
 section#content{
