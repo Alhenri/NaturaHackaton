@@ -11,7 +11,7 @@ function BuscarLoja(){
                 <Button to="LojasEncontradas">Buscar lojas proximas</Button>
                 <h1>Ou</h1>
                 <Input type="text" value="Cidade"/>
-                <Button to="LojasEncontradas" >Buscar na cidade</Button>
+                <Button to="LojasEncontradas">Buscar na cidade</Button>
             </section>
         </PageDefault>
     )

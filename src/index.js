@@ -14,6 +14,7 @@ import Verificação from './pages/Verificação'
 import Conta from './pages/Conta'
 import BuscarLoja from './pages/BuscarLoja'
 import LojasEncontradas from './pages/LojasEncontradas'
+import Produtos from './pages/Produtos'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -27,6 +28,7 @@ ReactDOM.render(
       <Route path='/Conta' component={ Conta } exact />
       <Route path='/BuscarLoja' component={ BuscarLoja } exact />
       <Route path='/LojasEncontradas' component={ LojasEncontradas } exact />
+      <Route path='/Produtos' component={ Produtos } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

@@ -2,7 +2,7 @@ section#PageDefault{
     margin-top: 60px;
     background-color: #E5E5E5;
     width: 130vh;
-    height: 100vh;
+    height: auto;
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 36px;
