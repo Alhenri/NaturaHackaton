@@ -13,6 +13,7 @@ const StyledButton = Styled.a`
     text-align: center;
     width: 172px;
     text-decoration: none;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
     background-color: #FF9933;
 `
 

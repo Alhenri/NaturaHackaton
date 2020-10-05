@@ -7,8 +7,8 @@ function Cadastro(){
     return(
         <PageDefault>
             <section id="ButtonArea">
-                <Button>Cliente</Button>
-                <Button>Loja</Button>
+                <Button to="CadastroCliente">Cliente</Button>
+                <Button to="CadastroLoja">Loja</Button>
             </section>
         </PageDefault>
     )
