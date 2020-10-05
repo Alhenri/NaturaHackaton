@@ -7,6 +7,7 @@ function Home(){
     return (
         <PageDefault>
             <section id="ButtonArea">
+                <h1>Bem vindo ao atendimento virtual da Natura!</h1>
                 <Button to="/Cadastro">Cadastro</Button>
                 <Button to="/Login">Login</Button>
             </section>

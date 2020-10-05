@@ -1,0 +1,14 @@
+section#CadastroLoja{
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+form#CadastroLoja{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

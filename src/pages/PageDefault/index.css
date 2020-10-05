@@ -1,13 +1,24 @@
 section#PageDefault{
     margin-top: 60px;
     background-color: #E5E5E5;
-    width: 120vh;
-    height: 80vh;
+    width: 130vh;
+    height: 100vh;
     border-radius: 15px;
     padding-top: 20px;
     padding-bottom: 36px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    box-shadow: black;
+}
+
+
+section#PageDefault a#Logo{
+    margin: 0 25px;
+    width: auto;
+    text-decoration: none;
+    display: flex;
     justify-content: space-between;
 }
 img {
@@ -22,3 +33,4 @@ section#content{
     flex-direction: column;
     align-items: center;
 }
+

@@ -7,6 +7,7 @@ import './index.css'
 function CadastroCliente(){
     return(
         <PageDefault>
+            <h1>Seja nosso cliente!</h1>
             <form id="CadastroCliente">
                 <Input type="text" value="Primeiro Nome"/>
                 <Input type="text" value="Sobrenome" />
