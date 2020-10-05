@@ -1,0 +1,15 @@
+section#CardArea{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+section#CardArea div{
+    padding: 15px;
+    border-radius: 5px;
+    color: #636363;
+    text-align: center;
+    background-color:#FF9933;
+    ;
+}

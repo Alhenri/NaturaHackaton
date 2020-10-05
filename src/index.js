@@ -12,6 +12,8 @@ import CadastroLoja from './pages/CadastroLoja'
 import Login from './pages/Login'
 import Verificação from './pages/Verificação'
 import Conta from './pages/Conta'
+import BuscarLoja from './pages/BuscarLoja'
+import LojasEncontradas from './pages/LojasEncontradas'
 
 ReactDOM.render(
   <BrowserRouter>
@@ -23,6 +25,8 @@ ReactDOM.render(
       <Route path='/Login' component={ Login } exact />
       <Route path='/Verificação' component={ Verificação } exact />
       <Route path='/Conta' component={ Conta } exact />
+      <Route path='/BuscarLoja' component={ BuscarLoja } exact />
+      <Route path='/LojasEncontradas' component={ LojasEncontradas } exact />
       <Route component={ NotFound } />
     </Switch>
   </BrowserRouter>,

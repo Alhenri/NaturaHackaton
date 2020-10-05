@@ -8,11 +8,11 @@ function Conta(){
             <h1>Bem vindo ao seu cadastro Natura</h1>
             <section id="ButtonArea">
             <h2>
-                Agora você pode buscar produtos em nossas lojas cadastradas ou ser
+                Agora você pode buscar e/ou agendar retirada de produtos em nossas lojas cadastradas ou ser
                 atendido por nossos funcionários online
             </h2>
-                <Button>Buscar</Button>
-                <Button>Atendimento</Button>
+                <Button to="BuscarLoja">Buscar</Button>
+                <Button>Duvidas?</Button>
             </section>
         </PageDefault>
     )

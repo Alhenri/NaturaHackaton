@@ -6,7 +6,7 @@ function NotFound(){
     return(
       <PageDefault>
         <h1>Page not found</h1>
-        <h3>Error 404!</h3>
+        <h2>Error 404!</h2>
       </PageDefault>
     )
 }
